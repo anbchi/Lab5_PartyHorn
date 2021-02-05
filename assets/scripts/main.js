@@ -73,3 +73,7 @@ function hearSound()
     sound.src = "./assets/media/audio/party-horn.mp3";
   }
 }
+
+var form = document.getElementById("honk-btn");
+function handleForm(event) { event.preventDefault(); } 
+form.addEventListener('submit', handleForm);
