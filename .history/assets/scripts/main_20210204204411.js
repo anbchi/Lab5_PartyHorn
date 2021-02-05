@@ -29,7 +29,7 @@ function changeVolumeScroll()
   document.getElementById("volume-number").value = volume_scroll;
 }
 
-function changeVolumeNumber()
+function changeVolumenUMBER()
 {  
   volume_number = document.getElementById("volume-number").value;
   if (volume_number < 34)
@@ -85,6 +85,4 @@ function hearSound(event)
   {
     sound.src = "./assets/media/audio/party-horn.mp3";
   }
-  sound.volume = (document.getElementById("volume-number").value*.01)
-  sound.play();
 }

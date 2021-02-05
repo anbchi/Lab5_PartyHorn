@@ -85,6 +85,4 @@ function hearSound(event)
   {
     sound.src = "./assets/media/audio/party-horn.mp3";
   }
-  sound.volume = (document.getElementById("volume-number").value*.01)
-  sound.play();
 }
