@@ -8,8 +8,8 @@ var sound_choose = document.getElementById("audio-selection");
 var sound = document.getElementById("horn-sound");
 var sound_pic = document.getElementById("sound-image");
 
-volume-slider.addEventListener("change", changeVolume);
-volume-number.addEventListener("change", changeVolume);
+volume_scroll.addEventListener("change", changeVolume);
+volume_value.addEventListener("change", changeVolume);
 
 function changeVolume()
 {  
