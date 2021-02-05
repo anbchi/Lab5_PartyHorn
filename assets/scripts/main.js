@@ -8,9 +8,12 @@ var sound_choose = document.getElementById("audio-selection");
 var sound = document.getElementById("horn-sound");
 var sound_pic = document.getElementById("sound-image");
 
+volume-slider.addEventListener("change", changeVolume);
+volume-number.addEventListener("change", changeVolume);
+
 function changeVolume()
 {  
-  if (volume_value < 34 || volume_scroll 34)
+  if (volume_value < 34 || volume_scroll < 34)
   {
     volume_pic.src = "./assets/media/icons/volume-level-1.svg";
   }
